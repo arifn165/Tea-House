@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mancrope google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Tea-House</title>
+    <!-- fontawsome link -->
+    <script src="https://kit.fontawesome.com/add719472b.js" crossorigin="anonymous"></script>
+    <!-- tailwind docs play cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+        </script>
+</head>
+<body>
+    <header>
+        <div class="max-w-screen-xl m-auto px-16 lg:flex">
+                <!-- content -->
+             <div>
+                <h1 class="font-bold text-4xl lg:text-7xl">It's good <br> tea time at The <br> Tea House</h1>
+                <br>
+                <p class="w-3/4 text-gray-600">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-700 px-7 py-3 rounded-xl text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-white -rotate-45 ml-lg"></i></button>
+
+             </div>
+                <!-- img destion -->
+             <div class="relative">
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                </div >
+                    <!-- img content -->
+                <div class="absolute bg-white shadow-xl rounded-xl  flex items-center px-3 py-3 lg:px-8 lg:py-7 top-2/3 lg:ml-24 lg:mt-[40px] w-[255px] h-[100px] " >
+                    <div >
+                        <i class=" text-3xl text-orange-400 fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class=" ml-2">
+                        <h2 class="font-extrabold text-3xl">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Rating</p>
+                    </div>
+                </div>
+             </div>
+
+        </div>
+
+    </header>
+    <main>
+      <section class="max-w-screen-xl m-auto px-16">
+        <div class="mt-8 w-full">
+          <!-- our featured products -->
+           <h2 class="font-bold text-3xl  lg:text-center lg:ml-16">Our Featured Products</h2>
+           <br>
+           <p class="lg:w-[901px] lg:h-[56px] text-center lg:ml-[200px] text-gray-500 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
